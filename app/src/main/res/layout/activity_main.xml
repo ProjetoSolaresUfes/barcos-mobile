@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/latLongTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp" />
+
+    <Switch
+        android:id="@+id/rastreamentoSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rastreamento"
+        android:checked="false"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/veloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0 nós"
+        android:textSize="80sp" />
+
+
+</LinearLayout>
